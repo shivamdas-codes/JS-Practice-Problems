@@ -414,8 +414,23 @@ if (val2) {
 // ## Ternary Operator
 
 // 1. Check whether a number is even or odd using ternary operator.
+var ter = 11
+var res = (ter % 2 == 0) ? "it is even" : "it is odd"
+console.log(res);
+
 // 2. Check whether age is above 18 using ternary operator.
+var age1 = 20
+var result1 = (age1 >= 18) ? "yes you can vote" : "no you cant vote"
+console.log(result1);
+
 // 3. Find the greater number between two values using ternary operator.
+var a = "hi"
+var b = 202
+var c = (a > b) ? "a is greater"
+        :(b > a) ? "b is greater"
+        :(a == b) ? "both are equal"
+        : "invalid input"
+console.log(c);  
 
 // ---
 
